@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta property="og:title" content="N3rd Personal Website">
+    <meta property="og:image" content="https://nerdco.000webhostapp.com/images/pfp.png">
+    <meta property="og:description" content="Nerd's Personal Website, i think. Maybe... idk just click the link dude.">
+    <meta name="description" property="description" content="Nerd's portfolio">
+    <meta property="og:url" content="https://nerdco.000webhostapp.com/" />
+    <meta name="twitter:card" content="summary_large_image">
+    <link rel="shortcut icon" href="./assets/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="main.css">
+    <script defer src="/_vercel/insights/script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Nerd | Home</title>
+
+
+</head>
+<body>
+    
+    <header>
+        
+
+        <div id="nav" class="nav">
+            <div class="nav-corners">
+                <div class="nav-bot-left"></div>
+                <div class="nav-bot-right"></div>
+            </div>
+            <div class="nav-links">
+                <p class="nav-name">Nerd.Inc</p>
+                <div class="links">
+                    <a class="active" href="../">Home</a>
+                    <a href="achievements.html">Achievements</a>
+                    <a href="projects.html">Projects</a>
+                    <a href="#contacts">Contacts</a>
+                </div>
+            </div>
+        </div>
+
+
+        <div id="dropdown" class="dropdown">
+            <div class="nav-corners">
+                <div class="nav-bot-left"></div>
+                <div class="nav-bot-right"></div>
+            </div>
+            <div id="dropdown-menu" class="dropdown-menu">
+                <p class="nav-name">Nerd.Inc</p>
+                <div class="dropdown-cont"><b><i class="fa-solid fa-bars"></i></b>
+                    <div id="dropdown-links" class="dropdown-links">
+                        <a class="active" href="../">Home</a>
+                        <a href="achievements.html">Achievements</a>
+                        <a href="projects.html">Projects</a>
+                        <a href="#contacts">Contacts</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="top">
+            <h2 class="top-h"> NASSIR IBRAHIM PETER </h2>
+            <p class="top-p"> I like to <span class="like-to"></span> </p>
+            <script>
+                var typed = new Typed(".like-to", {
+                    strings: [
+                    "Watch Movies.",
+                    "Play Video Games.",
+                    "Learn.",
+                    "Code.",
+                    ],
+                    typeSpeed: 100,
+                    backSpeed: 30,
+                    loop: true,
+                })
+            </script>
+        </div>
+
+
+    </header>
+
+
+    <main>
+
+        
+    <div id="welcome" class="container">
+        <div class="container-corners">
+            <div class="container-top">
+                <div class="container-top-l"></div>
+            </div>
+            <div class="container-bot">
+                <div class="container-bot-r"></div>
+            </div>
+        </div>
+        <div class="container-cont">
+            <div class="container-items">
+                <h2>Welcome</h2>
+                <p><span id="greet"></span> and welcome to my amazing portfolio! My name is Nassir Ibrahim Peter, and I'm thrilled to have you here. As a 17-year-old aspiring developer, this portfolio is a showcase of my passion for coding and my journey as a developer. Here you'll find a collection of my projects, achievements, and skills that demonstrate my commitment to learning and improving my craft. I hope that you enjoy browsing through my work and gain a sense of the dedication and enthusiasm I have for coding. Thank you for taking the time to visit my portfolio, and I look forward to hearing from you! <a href="#contact" style="text-decoration: none;color: aqua;">Contacts</a></p>
+            </div>
+        </div>
+    </div>    
+    
+    
+    <div id="about" class="container">
+        <div class="container-corners">
+            <div class="container-top">
+                <div class="container-top-l"></div>
+            </div>
+            <div class="container-bot">
+                <div class="container-bot-r"></div>
+            </div>
+        </div>
+        <div class="container-cont">
+            <div id="about-container-items" class="about-container-items">
+                <div id="container-left" class="container-left">
+                    <div class="banner">
+                        <img class="pfp" src="./assets/pfp.png" alt="pfp">
+                    </div>
+                    <h2 class="username">Nerd#6435</h2>
+                    <h3> Bio : </h3>
+                    <p><span>Nickname</span>: Nerd.</p>
+                    <p><span>Hobbies</span>: Coding and Gaming.</p>
+                    <p><span>Learning</span>: Python and JavaScript</p>
+                    <p><span>Education Level</span>: College</p>
+                    <h3> Discord: </h3>
+                    <p><span>Status</span>: <em id="status" class="status"></em></p>
+                    <p><span>Joined</span>: Feb 10, 2021.</p>
+                </div>
+                <div id="container-right" class="container-right">
+                    <h2>About me</h2>
+                    <p>Hi there! My name is Nassir Ibrahim Peter, and I'm a 17-year-old aspiring developer from Tanzania. Ever since I was young, I've been fascinated by the world of technology and the endless possibilities it offers. Over the years, I've developed a passion for coding and have been working hard to improve my skills and knowledge in this field. I love the challenge that coding presents and the feeling of satisfaction when I solve a complex problem. When I'm not coding, you can find me playing Video Games, watching a movie, or spending time with family and friends. As I continue to grow and learn, my goal is to become a skilled developer and make a positive impact in the world through technology. Thank you for taking the time to read a bit about me, and I'm excited to see where this journey takes me!</p>
+                    <h2>My Favourite Quotes</h2>
+                    <p>"</span><span class="auto-type"></span><span>"</p>
+                </div>
+            </div>
+            <script>
+                var typed = new Typed(".auto-type", {
+                    strings: [
+                    "If you can't code in a certain language, become the language.",
+                    "Choices have consiqunces.",
+                    "The extraordinary is in what we do, not who we are.",
+                    "A Spartan Never Lets His Back Hit The Ground.",
+                    "If You Win Power, Remember Why You Wanted It.",
+                    "You can't run away from who you are, but what you can do is run toward who you want to be.",
+                    "With great power, comes great resposibility.",
+                    "A Journey of a Thousand miles begins with a single step.",
+                    "There's no glory in practice, but without practice there can be no glory!",
+                    ],
+                    typeSpeed: 100,
+                    backSpeed: 30,
+                    loop: true,
+                })
+            </script>
+        </div>
+    </div>
+
+
+    <div id="card-c" class="card-c">
+        <h1 class="card-c-h">LANGUAGES</h1>
+        <div id="cards" class="cards">
+            <div class="card-b">
+                <div class="card">
+                    <div class="card-corners">
+                        <div class="card-top">
+                            <div class="card-top-l"></div>
+                            <div class="card-top-r"></div>
+                        </div>
+                        <div class="card-bot">
+                            <div class="card-bot-l"></div>
+                            <div class="card-bot-r"></div>
+                        </div>
+                    </div>
+                    <div class="card-items" style="background-image: url('./assets/html.png');background-size: cover;background-position: center;">
+                        <div class="card-cont">
+                            <h1>HTML 5</h1>
+                            <p>I know a decent amout of Html to get basic things done. Html is an acronym which stands for Hyper Text Markup Language which is used for creating web pages and web applications. Let's see what is meant by Hypertext Markup Language, and Web page.</p>
+                            <a target="_blank" class="card-button" href="https://www.javatpoint.com/what-is-html">What is HTML</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="card-b">
+                <div class="card">
+                    <div class="card-corners">
+                        <div class="card-top">
+                            <div class="card-top-l"></div>
+                            <div class="card-top-r"></div>
+                        </div>
+                        <div class="card-bot">
+                            <div class="card-bot-l"></div>
+                            <div class="card-bot-r"></div>
+                        </div>
+                    </div>
+                    <div class="card-items" style="background-image: url('./assets/css.png');background-size: cover;background-position: center;">
+                        <div class="card-cont">
+                            <h1>CSS 3</h1>
+                            <p>I also know decent amout of css. CSS stands for Cascading Style Sheets. It is a style sheet language which is used to describe the look and formatting of a document written in markup language. It provides an additional feature to HTML.</p>
+                            <a target="_blank" class="card-button" href="https://www.javatpoint.com/what-is-css">What is CSS</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="card-b">
+                <div class="card">
+                    <div class="card-corners">
+                        <div class="card-top">
+                            <div class="card-top-l"></div>
+                            <div class="card-top-r"></div>
+                        </div>
+                        <div class="card-bot">
+                            <div class="card-bot-l"></div>
+                            <div class="card-bot-r"></div>
+                        </div>
+                    </div>
+                    <div class="card-items" style="background-image: url('./assets/js.png');background-size: cover;background-position: center;">
+                        <div class="card-cont">
+                            <h1>JavaScript</h1>
+                            <p>I know basics of JavaScript and i'm still learning more. JavaScript (js) is a light-weight object-oriented programming language which is used by several websites for scripting the webpages. It is an interpreted, full-fledged programming language.</p>
+                            <a target="_blank" class="card-button" href="https://www.javatpoint.com/javascript-tutorial">What is Js</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="card-b">
+                <div class="card">
+                    <div class="card-corners">
+                        <div class="card-top">
+                            <div class="card-top-l"></div>
+                            <div class="card-top-r"></div>
+                        </div>
+                        <div class="card-bot">
+                            <div class="card-bot-l"></div>
+                            <div class="card-bot-r"></div>
+                        </div>
+                    </div>
+                    <div class="card-items" style="background-image: url('./assets/python-b.png');background-size: cover;background-position: center;">
+                        <div class="card-cont">
+                            <h1>Python</h1>
+                            <p>I know basics of Python and i'm still learning more. Python is an interpreted, object-oriented, high-level programming language with dynamic semantics. Its high-level built in data structures, combined with dynamic typing and dynamic binding.</p>
+                            <a target="_blank" class="card-button" href="https://www.python.org/doc/essays/blurb/">What is Python</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="card-controls" class="card-controls">
+            <span class="card-prev" id="card-prev">Prev</span>
+            <span onclick="next()" class="card-next" id="card-next">Next</span>
+        </div>
+    </div>
+
+
+    </main>
+
+
+    <footer>
+
+        <div id="contacts" class="container">
+            <div class="container-corners">
+                <div class="container-top">
+                    <div class="container-top-l"></div>
+                </div>
+                <div class="container-bot">
+                    <div class="container-bot-r"></div>
+                </div>
+            </div>
+            <div class="container-cont">
+                <div class="container-items">
+                    <h2 data-value="Contact me" class="head heck" id="contact">Contact me</h2>
+                    <p>You can contact me through these four ways if you need anything.</p>
+                    <p><i class="fa-brands fa-discord" style="color: aqua;"></i> Discord: <a target="_blank" href="https://discord.com" style="text-decoration: none;color: aqua;"> Nerd#6435</a></p>
+                    <p><i class="fa-solid fa-envelope" style="color: aqua;"></i> E-mail: <a href="mailto:coddisc7@gmail.com" style="text-decoration: none;color: aqua;"> coddisc7@gmail.com</a></p>
+                    <P><i class="fa-solid fa-phone-volume" style="color: aqua;"></i> Phone: <a href="tel:+255776243398" style="text-decoration: none;color: aqua;"> +255-776-243-398</a></P>
+                    <P><i class="fa-brands fa-whatsapp" style="color: aqua;"></i> WhatsApp: <a target="_blank" href="https://web.whatsapp.com" style="text-decoration: none;color: aqua;"> +255-776-243-398</a></P>
+                </div>
+            </div>
+        </div>
+
+    </footer>
+
+
+    <script src="index.js"></script>
+    <script src="main.js"></script>
+</body>
+</html>
